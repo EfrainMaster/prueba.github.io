@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Prueba front</title>
+        <link rel="stylesheet" href="./styles/styles.css">
+    </head>
+    <body>
+        <section>
+            <div id="logo">
+                <img src="./img/pet.png" id="imagen"/>
+            </div>
+        <div id="container">
+            <div id="login">
+                <h2>BIENVENIDO</h2>
+                <form id="formLog" action="indexfor.html" >
+                    <input type="email"  placeholder="EMAIL" id="for_email" data-validation="email" class="inp_mail"/><br>
+                    <input type="password" placeholder="PASSWORD" id="for_pass" class="inp_mail" /><br>
+                    <p id="olvida">Olvidaste tu contraseña?</p>
+                    <h2 id="olvidaq"></h2>
+                    <input type="submit" id="btn-enviar" value="INICIAR SESIÓN"/><br>
+                    <p>Aun no tengo cuenta <span><a href="formulario.html">REGISTRARSE</a></span></p>
+                </form>             
+            </div>
+            <button class="subir">SUBIR</button>
+        </div>
+        </section>
+      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery-ui/jquery.form-validator.min.js"></script>
+        <script src="./js/codigo.js"></script>
+    </body>
+</html>

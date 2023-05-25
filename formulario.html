@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Prueba front</title>
+        <link rel="stylesheet" href="./styles/styles.css">
+    </head>
+    <body>
+        <section>
+            <div id="logo">
+                <img src="./img/pet.png" id="imagen"/>
+            </div>
+        <div id="container">
+            <div id="login">
+                <h2>Formulario</h2>
+                <form action="https://reqres.in/api/users" method="POST" id="formulario" >
+                    <label>Nombre:</label><br>
+                    <input type="text" placeholder="NOMBRE" name="name" data-validation="alphanumeric" class="inp_mail"/><br>
+                    <label>Apellido:</label><br>
+                    <input type="text" placeholder="APELLIDO" name="lastname" data-validation="alphanumeric" class="inp_mail" /><br>
+                    <label>Email:</label><br>
+                    <input type="email" placeholder="EMAIL" name="mail" data-validation="email" class="inp_mail"/><br>
+                    <input type="submit" id="btn-enviar" value="Registrar"/><br>
+                </form>
+            </div>
+            <button class="subir">SUBIR</button>
+        </div>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery-ui/jquery.form-validator.min.js"></script>
+        <script src="./js/codigo.js"></script>
+    </body>
+</html>
